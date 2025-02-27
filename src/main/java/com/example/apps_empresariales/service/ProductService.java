@@ -19,7 +19,7 @@ public class ProductService {
     private ProductRepository productRepository;
 
     /**
-     * calls the method getAllProduct of class ProductService
+     * calls the method findAll of class ProductService
      * @return list of all products
      */
     public List<Product> findAllProduct() {

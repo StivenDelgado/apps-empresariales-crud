@@ -19,7 +19,7 @@ public class ProductController {
     private ProductService productService;
 
     /**
-     * calls the method getAllProduct of class ProductService
+     * calls the method findAllProduct of class ProductService
      * @return list of all products
      */
     @GetMapping("/allProducts")
