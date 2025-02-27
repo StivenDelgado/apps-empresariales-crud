@@ -12,6 +12,9 @@ import java.util.Optional;
 @RequestMapping("/api/products")
 public class ProductController {
 
+    /**
+     * calls the class ProductService and use the annotation @Autowired; apply singleton in the class
+     */
     @Autowired
     private ProductService productService;
 
